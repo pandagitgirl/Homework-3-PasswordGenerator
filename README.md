@@ -1,7 +1,7 @@
 # 03 JavaScript: Password Generator
 
 [Repo] (https://github.com/pandagitgirl/Homework-3-PasswordGenerator)
-[Password Generator Live Site] (https://github.com/pandagitgirl/Homework-3-PasswordGenerator)
+[Password Generator Live Site] (https://pandagitgirl.github.io/Homework-3-PasswordGenerator/)
 
 ## Your Task
 
