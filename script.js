@@ -8,6 +8,8 @@ function writePassword() {
 
   passwordText.value = password;
 }
+var letters = []
+
 function generatePassword() {
   var passwordLength = parseInt(
     prompt("How many characters do you want your password?"));
@@ -29,8 +31,6 @@ function generatePassword() {
   }
   for (var i = 0; i < passwordLength; i ++);
 };
-
-
 
 
 
