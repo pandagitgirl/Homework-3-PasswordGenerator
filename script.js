@@ -23,7 +23,7 @@ return randomPass;
 
 
 
-
+// first function to generate what exactly to push through the generator 
 function generatePassword() {
   var passwordLength = parseInt(
     prompt("How many characters do you want your password?"));
@@ -50,3 +50,6 @@ function generatePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+// was unable to figure out how to get the actual generator to push through an actual random password...
