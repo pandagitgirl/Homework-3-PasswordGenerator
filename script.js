@@ -8,7 +8,21 @@ function writePassword() {
 
   passwordText.value = password;
 }
-var letters = []
+var getLettersUpper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+var getLettersLower = ['a', 'b', 'c', 'd', 'e', 'f', 'g','h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+var getRandomNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+var getRandomSymbols = ['@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', '(','}','{',']','[','~','-','_','.'];
+
+function randomFunctions(array) {
+  
+var randomIndex = Math.floor(Math.random() * array.length);
+var randomPass = array[randomIndex];
+console.log(randomPass);
+return randomPass;
+}
+
+
+
 
 function generatePassword() {
   var passwordLength = parseInt(
